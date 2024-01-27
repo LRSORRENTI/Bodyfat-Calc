@@ -124,6 +124,33 @@ button {
   cursor: pointer;
 }
 
+#weight {
+  border-radius: 5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#height {
+  border-radius: 5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#neck {
+  border-radius: 5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
+#waist {
+  border-radius: 5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+}
+
 #hip {
   width: 210px;
+  border-radius: 5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
 }
