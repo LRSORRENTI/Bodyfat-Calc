@@ -5,14 +5,26 @@
   --fourth: #dafffb;
 }
 
+html {
+  background: radial-gradient(
+    164.75% 100% at 100% 0,
+    #334155 0,
+    #0f172a 48.73%
+  );
+}
 body {
-  background-color: #e9d5d5c7;
   margin: 0;
   padding: 0;
+  color: #cbcbcb;
+  font-family: sans-serif;
 }
 .label-wrap {
   display: flex;
   justify-content: center;
+}
+
+label {
+  font-weight: 800;
 }
 
 .inputs-wrap {
@@ -28,6 +40,12 @@ body {
   display: flex;
   justify-content: center;
   margin-top: 3rem;
+  background: radial-gradient(
+    164.75% 100% at 100% 0,
+    #334155 0,
+    #0f172a 48.73%
+  );
+  padding-bottom: 2000px;
 }
 
 .radio-wrap {
@@ -41,11 +59,13 @@ body {
 }
 
 .btn {
-  width: 10rem;
-  border: 5px solid var(--sec-color);
+  width: 14.3rem;
+  border: 3px solid var(--third);
   border-style: ridge;
-  background-color: #fff;
-  color: #282828;
+  background-color: #0f172a;
+  color: #cbcbcb;
+  font-size: 1rem;
+  font-weight: 900;
   padding-top: 5px;
   border-radius: 10px;
   padding-bottom: 5px;
@@ -61,11 +81,11 @@ body {
 
 form {
   margin: 20px;
-  padding: 20px;
-  border: 1px solid #ccc;
-  border: 7px solid var(--sec-color);
-  border-style: ridge;
-  padding: 15px;
+  padding-top: 20px;
+  padding-bottom: 8px;
+  padding-left: 12px;
+  padding-right: 12px;
+  border: 4px solid var(--sec-color);
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
     rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
@@ -99,27 +119,40 @@ button {
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0, 0, 0); /* Fallback color */
   background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
-  padding-top: 60px;
+  padding-top: 90px;
+  font-weight: 900;
 }
 
 .modal-content {
-  background-color: #fefefe;
+  background: radial-gradient(
+    164.75% 100% at 100% 0,
+    #334155 0,
+    #0f172a 48.73%
+  );
+  color: #cbcbcb;
   margin: 5% auto;
-  padding: 20px;
-  border: 1px solid #888;
-  width: 80%;
+  /* padding: 20px; */
+  /* padding-bottom: 10px; */
+  border: 4px solid #334155;
+  width: 260px;
+  height: 50px;
+  text-align: center;
+  padding-bottom: 50px;
+
+  border-radius: 10px;
 }
 
 .close {
   color: #aaa;
-  float: right;
-  font-size: 28px;
+  font-size: 20px;
   font-weight: bold;
+  margin-left: 233px;
+  padding-bottom: 10px;
 }
 
 .close:hover,
 .close:focus {
-  color: black;
+  color: #64ccc5;
   text-decoration: none;
   cursor: pointer;
 }
