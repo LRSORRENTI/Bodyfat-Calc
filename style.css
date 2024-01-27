@@ -1,4 +1,13 @@
 /* Styles for the form */
+#bodyFatForm {
+  width: 170px;
+}
+.formwrap {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
 form {
   margin: 20px;
   padding: 20px;
@@ -18,8 +27,6 @@ button {
 }
 .gender {
   margin-top: 1px;
-  background-color: red;
-  border: 2px solid navy;
 }
 
 #female {
