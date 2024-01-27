@@ -1,17 +1,75 @@
+:root {
+  --main-bg-color: #04364a;
+  --sec-color: #176b87;
+  --third: #64ccc5;
+  --fourth: #dafffb;
+}
+
+body {
+  background-color: #e9d5d5c7;
+  margin: 0;
+  padding: 0;
+}
+.label-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.inputs-wrap {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
 /* Styles for the form */
 #bodyFatForm {
-  width: 170px;
+  min-width: 220px;
 }
 .formwrap {
   display: flex;
   justify-content: center;
-  margin-top: 1rem;
+  margin-top: 3rem;
+}
+
+.radio-wrap {
+  display: flex;
+  justify-content: space-around;
+}
+
+.btn-wrap {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  width: 10rem;
+  border: 5px solid var(--sec-color);
+  border-style: ridge;
+  background-color: #fff;
+  color: #282828;
+  padding-top: 5px;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+  /* box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px,
+      rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px,
+      rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
 }
 
 form {
   margin: 20px;
   padding: 20px;
   border: 1px solid #ccc;
+  border: 7px solid var(--sec-color);
+  border-style: ridge;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 input[type="number"],
@@ -27,10 +85,6 @@ button {
 }
 .gender {
   margin-top: 1px;
-}
-
-#female {
-  /* margin-bottom: 10px; */
 }
 
 /* Styles for the modal */
@@ -68,4 +122,8 @@ button {
   color: black;
   text-decoration: none;
   cursor: pointer;
+}
+
+#hip {
+  width: 210px;
 }
