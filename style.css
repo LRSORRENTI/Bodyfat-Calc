@@ -34,7 +34,7 @@ label {
 }
 /* Styles for the form */
 #bodyFatForm {
-  min-width: 220px;
+  width: 250px;
 }
 .formwrap {
   display: flex;
@@ -182,7 +182,7 @@ button {
 }
 
 #hip {
-  width: 210px;
+  width: 242px;
   border-radius: 5px;
   padding-top: 4px;
   padding-bottom: 4px;
