@@ -59,7 +59,7 @@ label {
 }
 
 .btn {
-  width: 14.3rem;
+  width: 16.5rem;
   border: 3px solid var(--third);
   border-style: ridge;
   background-color: #0f172a;
@@ -92,6 +92,15 @@ form {
     rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
+input:checked {
+  accent-color: var(--third);
+}
+
+input,
+#height:focus {
+  border: 2px solid var(--third);
+}
+
 input[type="number"],
 input[type="radio"],
 button {
@@ -104,7 +113,9 @@ button {
   display: flex;
 }
 .gender {
-  margin-top: 1px;
+  color: #cbcbcb;
+  font-weight: 900;
+  /* padding-top: -10px; */
 }
 
 /* Styles for the modal */
@@ -186,4 +197,7 @@ button {
   border-radius: 5px;
   padding-top: 4px;
   padding-bottom: 4px;
+}
+#weight:focus {
+  border: 2px solid magenta;
 }
