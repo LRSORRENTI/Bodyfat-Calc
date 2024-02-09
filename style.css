@@ -104,7 +104,7 @@ input,
 input[type="number"],
 input[type="radio"],
 button {
-  margin-top: 5px;
+  margin-top: 1px;
   margin-bottom: 20px;
   display: block;
 }
@@ -115,6 +115,7 @@ button {
 .gender {
   color: #cbcbcb;
   font-weight: 900;
+  margin-bottom: 22px;
   /* padding-top: -10px; */
 }
 
